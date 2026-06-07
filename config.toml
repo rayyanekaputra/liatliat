@@ -1,0 +1,58 @@
+# Configuration for Network Monitoring Dashboard
+
+# Should we use sudo for ping and arp-scan?
+# (Set to true if you are not running the server as root, but requires NOPASSWD in sudoers)
+use_sudo = false
+
+[polling]
+# How often to check all targets (in milliseconds)
+interval = 5000
+
+[[targets]]
+id = "google_http"
+type = "http"
+name = "Google (HTTP)"
+url = "https://www.google.com"
+# Optional: source_ip = "192.168.1.10"
+
+[[targets]]
+id = "sapweb_http"
+type = "http"
+name = "SAPWEB Server"
+url = "https://sapweb.indoguna.co.id"
+# Optional: source_ip = "192.168.1.10"
+
+[[targets]]
+id = "sapweb_b1_http"
+type = "http"
+name = "SAPWEB Business One Server"
+url = "https://sapweb.indoguna.co.id:2882"
+# Optional: source_ip = "192.168.1.10"
+
+
+[[targets]]
+id = "sapweb_erp_http"
+type = "http"
+name = "SAPWEB ERP"
+url = "https://sapweb.indoguna.co.id/web_mks"
+# Optional: source_ip = "192.168.1.10"
+
+[[targets]]
+id = "sapweb_cnw_http"
+type = "http"
+name = "SAPWEB CNW"
+url = "https://sapweb.indoguna.co.id:2583"
+# Optional: source_ip = "192.168.1.10"
+
+[[targets]]
+id = "cloudflare_ping"
+type = "ping"
+name = "Cloudflare (Ping)"
+host = "1.1.1.1"
+# Optional: source_ip = "192.168.1.10"
+
+# [[targets]]
+# id = "local_network_arp"
+# type = "arp"
+# name = "Local Subnet (ARP)"
+# interface = "eth0" # Change this to your actual network interface

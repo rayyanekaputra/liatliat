@@ -1,0 +1,113 @@
+{
+  "stats": {
+    "google_http": [
+      {
+        "time": "2026-06-07T15:24:28.054Z",
+        "latency": 215,
+        "isUp": true
+      },
+      {
+        "time": "2026-06-07T15:24:32.934Z",
+        "latency": 94,
+        "isUp": true
+      },
+      {
+        "time": "2026-06-07T15:24:37.942Z",
+        "latency": 101,
+        "isUp": true
+      }
+    ],
+    "sapweb_http": [
+      {
+        "time": "2026-06-07T15:24:29.558Z",
+        "latency": 1501,
+        "isUp": true
+      },
+      {
+        "time": "2026-06-07T15:24:33.017Z",
+        "latency": 82,
+        "isUp": true
+      },
+      {
+        "time": "2026-06-07T15:24:38.016Z",
+        "latency": 74,
+        "isUp": true
+      }
+    ],
+    "sapweb_b1_http": [
+      {
+        "time": "2026-06-07T15:24:29.900Z",
+        "latency": 341,
+        "isUp": true
+      },
+      {
+        "time": "2026-06-07T15:24:33.220Z",
+        "latency": 203,
+        "isUp": true
+      },
+      {
+        "time": "2026-06-07T15:24:38.104Z",
+        "latency": 88,
+        "isUp": true
+      }
+    ],
+    "sapweb_erp_http": [
+      {
+        "time": "2026-06-07T15:24:29.989Z",
+        "latency": 88,
+        "isUp": true
+      },
+      {
+        "time": "2026-06-07T15:24:33.307Z",
+        "latency": 87,
+        "isUp": true
+      },
+      {
+        "time": "2026-06-07T15:24:38.482Z",
+        "latency": 378,
+        "isUp": true
+      }
+    ],
+    "sapweb_cnw_http": [
+      {
+        "time": "2026-06-07T15:24:33.974Z",
+        "latency": 667,
+        "isUp": true
+      },
+      {
+        "time": "2026-06-07T15:24:36.318Z",
+        "latency": 6328,
+        "isUp": true
+      },
+      {
+        "time": "2026-06-07T15:24:40.964Z",
+        "latency": 2481,
+        "isUp": true
+      }
+    ],
+    "cloudflare_ping": [
+      {
+        "time": "2026-06-07T15:24:34.015Z",
+        "latency": 37.9,
+        "isUp": true
+      },
+      {
+        "time": "2026-06-07T15:24:36.357Z",
+        "latency": 37,
+        "isUp": true
+      },
+      {
+        "time": "2026-06-07T15:24:41.001Z",
+        "latency": 35.1,
+        "isUp": true
+      }
+    ]
+  },
+  "logs": [
+    {
+      "timestamp": "2026-06-07T15:24:22.837Z",
+      "message": "Config loaded successfully.",
+      "level": "info"
+    }
+  ]
+}
