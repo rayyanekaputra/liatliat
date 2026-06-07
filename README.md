@@ -62,6 +62,7 @@ checks url availability and latency.
 ```toml
 [[targets]]
 id = "google_http"
+group = "external services"
 type = "http"
 name = "google frontend"
 url = "https://www.google.com"
@@ -74,6 +75,7 @@ executes an icmp echo request.
 ```toml
 [[targets]]
 id = "cloudflare_ping"
+group = "external services"
 type = "ping"
 name = "cloudflare dns"
 host = "1.1.1.1"
@@ -86,6 +88,7 @@ scans the local subnet for active devices.
 ```toml
 [[targets]]
 id = "local_arp"
+group = "internal network"
 type = "arp"
 name = "office devices"
 interface = "eth0" # required: network interface to scan
