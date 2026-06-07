@@ -1,4 +1,5 @@
 # network dashboard
+<img width="1920" height="1080" alt="Screenshot from 2026-06-07 23-40-04" src="https://github.com/user-attachments/assets/6326fbe9-991f-4ba6-b9fd-ef86c93707de" />
 
 a lightweight network monitoring dashboard. no database required. runs on bun, vite, react, and tailwind.
 
